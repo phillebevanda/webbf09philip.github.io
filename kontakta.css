@@ -1,0 +1,12 @@
+body {
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows: auto auto 1fr;
+  grid-template-areas: "h h" "m m" "b b" "s a"  "f f";
+  background-color: #363334;
+}
+
+header{
+  display: grid;
+  grid-area: h;
+}

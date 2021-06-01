@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakta</title>
+  <link href="style.css" rel="stylesheet" />
+  <link href="kontakta.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <h1 class="title">Turning Hotell</h1>
+  <nav class="topnav" id="myTopnav">
+    <a href="index.html">Start</a>
+    <a href="boka.html">Boka</a>
+    <a href="hitta.html">Hitta</a>
+    <a href="kontakta.html" class="active">Kontakta</a>
+  </nav>
+  <section>
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Förnamn</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Ditt förnamn...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Efternamn</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Ditt efterman...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="telephone">Telenr</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="telephone" name="telephone" placeholder="Ditt telefonnummer...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="email">Email</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="email" name="email" placeholder="Din epost...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Meddelande</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Skriv ditt meddelande här.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </section>
+  <aside>
+
+    <ul>
+      <li>
+        Ni är väldigt välkomna att kontakta oss med eventuella frågor!
+      </li>
+      <li>
+        Våra receptionstider är Mån-Fre: 09:00-20:00, Lör-Sön: 07:00-22:00
+      </li>
+    </ul>
+  </aside>
+  <footer>
+    <p>Turning Hotell | Lilla Varvsgatan 14 | 211 15 Malmö</p>
+  </footer>
+</body>
+
+</html>
